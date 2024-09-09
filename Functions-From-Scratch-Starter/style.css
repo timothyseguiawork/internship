@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #282A36;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: monospace;
+  color: #FF79C6;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+#editor-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #44475A;
+}
+
+#editor-line::after {
+  content: "";
+  width: 15px;
+  height: 100%;
+  background: #F8F8F2;
+  display: inline-block;
+  animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+}
