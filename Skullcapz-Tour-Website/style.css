@@ -1,0 +1,58 @@
+a {
+  color:red;
+}
+
+body {
+  background-color:black;
+  color:white;
+  font-family: 'Metal Mania', system-ui;
+  letter-spacing: 4px;
+  text-align:center;
+}
+
+button {
+  font-family: 'Metal Mania', system-ui;
+}
+
+h2 {
+  color:red;
+  letter-spacing: 4px;
+}
+
+header {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+header img {
+  border-radius: 25px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: black;
+  background-image: linear-gradient(to right, black, white, black);
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+#giveaway-form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+input {
+  background: transparent;
+  color: white;
+  font-family: 'Metal Mania', system-ui;
+}
+
+#tour-image {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+

@@ -1,0 +1,26 @@
+/* Add @font-face rule to generated web fonts .woff/.woff2 */
+@font-face {
+    font-family: 'zilla_slab_highlightbold';
+    src: url('fonts/zillaslabhighlight-bold-webfont.woff2') format('woff2'),
+         url('fonts/zillaslabhighlight-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  /* font-family: "Helvetica Neue"; */
+
+  font-family: 'Lobster', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  /* font-family: "Brush Script"; */
+  font-family: 'Lato', sans-serif;
+}
+
+blockquote {
+  font-size: 25px;
+  /* using custom @font-face */
+  font-family: 'zilla_slab_highlightbold';
+}
