@@ -1,0 +1,20 @@
+body {
+  position: relative;
+}
+
+header#home {
+  background-image: 
+    linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)),
+    url("img/hero.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 20%;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 5px rgb(80,0,0);
+}
+
+.scroll-top .navbar {
+  background: transparent !important;
+}
