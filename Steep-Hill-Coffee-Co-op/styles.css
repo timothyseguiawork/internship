@@ -1,0 +1,25 @@
+#intro {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 20%;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  font-weight: 700;
+  background-image: url("assets/coffee.jpg");
+}
+#intro h1, #intro h3{
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#mission {
+  background-color: rgba()
+}
+
+#mission h3{
+  text-align: center;
+}
+

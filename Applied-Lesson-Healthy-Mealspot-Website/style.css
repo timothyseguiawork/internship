@@ -1,0 +1,44 @@
+/* Make 'Barlow' the default font. */
+body {
+  font-family: 'Barlow', Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #f5eed7;
+  font-family: 'Sunshiney', cursive;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.hero {
+  background: no-repeat center/cover url("img/hero.jpeg");
+  min-height: 50vh;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 20vh;
+}
+
+.off-text {
+  color: #c3c3c3;
+}
+
+.start-button {
+  display: block;
+  border-radius: 40px;
+  width: 40%;
+  max-width: 300px;
+  margin: 50px auto;
+}
+
+img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+}

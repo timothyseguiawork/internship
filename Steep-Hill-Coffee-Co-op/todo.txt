@@ -1,0 +1,18 @@
+1. Navbar
+- Add a navbar with links to the different sections of the page. On a phone this should collapse with a button to expand it.
+- Make the navbar dark themed - so a black-ish background with white text.
+- The navbar should say "Steep Hill" in big letters on the left side. Can you also put a little coffee cup icon before the text?
+
+2. Intro section
+- Make the name of the co-op really stand out from the other text on the page.
+- Center all of the text in this section and put some empty space above and below the text.
+- Make the button look better - maybe it could be green or yellow? 
+- In the assets folder there's a picture of some beans. Could you use it as a background image for this section? 
+
+3. Our mission section
+- Center where it says "Our Mission".
+- Could you make sure the text here has some breathing room? Like, make sure it doesn't go all the way to the edges of the screen or the other sections of the page? 
+- Double check that the text looks good on a phone. 
+
+4. Partners section
+- This is a big one but, if you have time, could you turn this section into an image slideshow? We have three pictures in the assets folder for you to use. So, on the page you see a picture with one of the text blurbs over it, then you can click an arrow to see the next one.
