@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  color: red;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1::before {
+  content: "😨";
+}
+
+h1::after {
+  content: "😨";
+}
+
+ol {
+  list-style-position: inside;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  color: white;
+  padding: 40px 100px;
+  margin: 3px 0;
+}
+
+li:nth-child(2n) {
+  background-color: rgba(0,0,255,.4);
+}
+
+li:nth-child(2n+1) {
+  background-color: rgba(255,255,0,.8);
+}

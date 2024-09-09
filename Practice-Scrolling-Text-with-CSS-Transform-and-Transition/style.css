@@ -1,0 +1,33 @@
+/* 
+	First, add a 20 second long ease transition to the crawling-text: hover selector. 
+
+	Next add a translateY transform and set the value of the translateY to -1050px.
+
+	Once you've done that, click run and check the preview!
+
+	Hint: If you're stuck, use your previous work or some Google Fu to find the correct syntax for each rule. 
+ */
+
+:root {
+	background-color: lavender;
+	font-family: 'Press Start 2P', cursive;
+}
+
+#text-container {
+	width: 500px;
+	height: 300px;
+	background-color: black;
+	color: yellow;
+	font-family: 'Press Start 2P', cursive;
+	overflow: hidden;
+}
+#crawling-text {
+	padding: 0 10px;
+}
+
+#crawling-text:hover {
+	cursor: n-resize;
+	/* Your CSS Here */
+  transition-duration: 20s;
+  transform: translateY(-1050px);
+}

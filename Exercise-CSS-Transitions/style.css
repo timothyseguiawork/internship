@@ -1,0 +1,53 @@
+.preload {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: wheat;
+  font-size: 14px;
+}
+
+#container {
+  width: 200px;
+  height: 200px;
+  background-color: #0000fd;
+  margin: 25px auto;
+  transition-duration: .5s;
+  overflow: hidden;
+}
+
+#container:hover {
+  width: 400px;
+  background-color: #e75480;
+  border-radius: 30px;
+  transition-duration: .5s;
+}
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  transition-duration: .5s;
+}
+
+#container:hover img {
+  padding: 15px;
+  border-radius: 50%;
+  transition-duration: .5s;
+}
+
+#desc {
+  display: inline-block;
+  vertical-align: middle;
+  width: 170px;
+  transition-duration: .5s;
+}
