@@ -1,0 +1,22 @@
+body {
+	height: 100vh;
+	background-color: black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px black;
+	font-family: 'Eagle Lake', cursive;
+	font-size: 10vw;
+}
+
+img {
+  width: 350px;
+  height: auto;
+}

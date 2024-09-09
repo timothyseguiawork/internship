@@ -1,0 +1,46 @@
+
+.box {
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    transition: 0.5s ease;
+    background: linear-gradient(red, yellow);
+}
+
+.mega-phone {
+  clip-path: polygon(79% 6%, 54% 31%, 36% 35%, 40% 48%, 40% 70%, 50% 70%, 51% 47%, 83% 57%);
+}
+
+.heart {
+  clip-path: polygon(48% 33%, 40% 23%, 24% 29%, 20% 38%, 46% 70%, 76% 38%, 73% 28%, 57% 23%);
+}
+
+.letter-c {
+  clip-path: polygon(51% 34%, 74% 34%, 74% 22%, 41% 22%, 40% 69%, 76% 69%, 76% 60%, 50% 60%);
+}
+
+.letter-s {
+  clip-path: polygon(54% 39%, 74% 34%, 74% 22%, 34% 31%, 56% 53%, 40% 61%, 40% 72%, 79% 51%);
+  background: red;
+}
+
+@keyframes punch-animation {
+  0% {
+    background: red;
+    width: 500px;
+    height: 500px;
+  }
+  50%  {
+    background: yellow;
+    width: 700px;
+    height: 700px;
+  }
+  100% {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+.animate {
+  animation: punch-animation 2s ease-in-out;
+}

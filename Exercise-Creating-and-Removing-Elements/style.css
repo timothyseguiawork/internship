@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  width: 430px;
+  margin: 0 auto;
+}
+
+.box {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color:rgba(0, 255, 255, 1);
+}
+
+.box * {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box:active {
+  background-color:rgba(0, 255, 255, .2);
+}
