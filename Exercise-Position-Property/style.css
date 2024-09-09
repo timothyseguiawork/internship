@@ -1,0 +1,76 @@
+body {
+  font-family: Roboto, sans-serif;
+  background: #E8DDCB;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box-set {
+  position: relative;
+  height: 1400px;
+  background: #CDB380;
+  margin: 20px;
+}
+
+.box {
+  width: 125px;
+  height: 125px;
+  background:#036564;
+  color:#E8DDCB;
+  border: 2px solid #033649;
+  padding: 20px;
+}
+
+.box-1 {
+  /* position: absolute;
+  top: 0;
+  z-index: 100; */
+
+  
+}
+
+.box-2 {
+  /* This is a relatively placed code, pushing box-2 from the right by 50px */
+  /* if you put a negative value, it pushes the box to the left: ; by 50px */
+  /* position: relative; */
+  /* right: 50px; */
+  /* right: -50px; */
+
+  /* Boxes 1-4 are based on the parent element that it is closest to. if the parent element is not relative, the items default to the body itself.  */
+  /* position: absolute;
+  top: 0;
+  right: 0; */
+
+  /* position: fixed;
+  top: 0;
+  right: 0; */
+
+  sticky goes towards the 
+  /* position: sticky;
+  top: 0; */
+}
+
+.box-3 {
+  /* This is a relatively placed code, pushing box-3 from the top by 60px */
+  /* position: relative;
+  top: 60px; */
+  /* higher the z-index, higher the item in visual stack */
+  /* every item's z-index starts at 0 anything higher will take precedence */
+  /* if you put negative value - it changes by lowering in visual stack  */
+  /* z-index: 100; */
+  
+  /* position: absolute;
+  bottom: 0;
+  z-index: 100; */
+}
+
+.box-4  {
+  /* position: relative;
+  z-index: 200; */
+
+  /* position: absolute;
+  bottom: 0;
+  right: 0; */
+}

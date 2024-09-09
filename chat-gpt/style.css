@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  color: white;
+  /* Set text color to white for better visibility on black background */
+  margin: 0;
+  /* Remove default margin to ensure full-width background */
+}
+
+header,
+section,
+footer {
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid white;
+  /* Adding a white border for better visibility on black background */
+}
+
+h1,
+h2 {
+  color: lime;
+  /* Set header text color to lime for contrast */
+}
