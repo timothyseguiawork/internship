@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background-color: #fafafa;
+}
+
+#sign-up-container {
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  border: solid black 1px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+button {
+  margin-top: 20px;
+}
+
+.password-req {
+  font-size: 12px;
+  color: gray;
+}
+
+.password-req.not-met {
+  color: black;
+}
